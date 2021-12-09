@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="490.0" style="-fx-background-color: #1d4bb8;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignUpController">
+   <children>
+      <Text layoutX="27.0" layoutY="-49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+         <font>
+            <Font name="Times New Roman" size="45.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameInput" layoutX="89.0" layoutY="107.0" prefHeight="35.0" prefWidth="288.0" />
+      <Text layoutX="214.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="familInput" layoutX="89.0" layoutY="175.0" prefHeight="35.0" prefWidth="288.0" />
+      <Text layoutX="195.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="loginInput" layoutX="89.0" layoutY="235.0" prefHeight="35.0" prefWidth="288.0" />
+      <Text layoutX="208.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="passwordInput" accessibleRole="PASSWORD_FIELD" layoutX="89.0" layoutY="295.0" prefHeight="35.0" prefWidth="288.0" />
+      <Text layoutX="202.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="signUpButton" layoutX="89.0" layoutY="351.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="288.0" style="-fx-background-color: #dea7f2;" text="Зарегистрироваться" />
+      <Button fx:id="exitButton" layoutX="363.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: red;" text="Выйти" />
+      <Text layoutX="165.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" wrappingWidth="136.3291015625">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#d10f0f" layoutX="5.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пройдите регистрацию, заполнив все ячейки!">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

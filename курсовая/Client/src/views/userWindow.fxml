@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="534.0" prefWidth="551.0" style="-fx-background-color: #1d4bb8;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerUserWindow">
+   <children>
+      <Button fx:id="searchButton" layoutX="280.0" layoutY="390.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="182.0" style="-fx-background-color: #dea7f2;" text="Поиск" />
+      <TextField fx:id="textFieldSearch" layoutX="93.0" layoutY="390.0" prefHeight="26.0" prefWidth="182.0" />
+      <Button fx:id="outButton" layoutX="457.0" layoutY="304.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="84.0" style="-fx-background-color: red;" text="Выйти" />
+      <Button fx:id="updateData" layoutX="91.0" layoutY="472.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="374.0" style="-fx-background-color: #dea7f2;" text="Обновить" />
+      <TableView fx:id="discountsTable" prefHeight="294.0" prefWidth="551.0">
+         <columns>
+            <TableColumn fx:id="idTab" prefWidth="25.60003662109375" text="Id" />
+            <TableColumn fx:id="nameTab" prefWidth="130.39996337890625" text="Имя" />
+            <TableColumn fx:id="surnameTab" minWidth="0.0" prefWidth="139.20001220703125" text="Фамилия" />
+            <TableColumn fx:id="dnumberTab" prefWidth="155.199951171875" text="Скидка" />
+            <TableColumn fx:id="shopNameTab" prefWidth="98.4000244140625" text="Магазин" />
+         </columns>
+      </TableView>
+      <Button fx:id="addProductInImportButton" layoutX="93.0" layoutY="430.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="374.0" style="-fx-background-color: #dea7f2;" text="Добавить скидку в список на просмотр" />
+      <Button fx:id="resultButton" layoutX="184.0" layoutY="326.0" mnemonicParsing="false" style="-fx-background-color: #dea7f2;" text="Рассчитать" />
+      <TextField fx:id="sumField" layoutX="19.0" layoutY="327.0" prefHeight="25.0" prefWidth="59.0" />
+      <TextField fx:id="discField" layoutX="112.0" layoutY="327.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="resultField" layoutX="278.0" layoutY="327.0" prefHeight="25.0" prefWidth="84.0" />
+      <Text layoutX="274.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Итоговая сумма:" >
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="29.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сумма:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="112.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скидка:" >
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Text>
+      <Text layoutX="26.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Для рассчета своей итоговой суммы заполните следующие поля:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+
+   </children>
+</AnchorPane>

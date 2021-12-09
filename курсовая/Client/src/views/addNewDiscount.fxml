@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="450.0" style="-fx-background-color: #1d4bb8;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerAddNewDiscount">
+   <children>
+      <TextField fx:id="nameField" layoutX="37.0" layoutY="31.0" prefHeight="25.0" prefWidth="381.0" promptText="Имя" />
+      <TextField fx:id="surnameField" layoutX="37.0" layoutY="68.0" prefHeight="25.0" prefWidth="381.0" promptText="Фамилия" />
+      <TextField fx:id="dnumberField" layoutX="37.0" layoutY="105.0" prefHeight="25.0" prefWidth="381.0" promptText="Скидка" />
+      <TextField fx:id="shopNameField" layoutX="37.0" layoutY="147.0" prefHeight="25.0" prefWidth="381.0" promptText="Магазин" />
+       <Button fx:id="addButton" layoutX="184.0" layoutY="199.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #dea7f2;" text="Добавить" textFill="#000000" />
+   </children>
+</Pane>
