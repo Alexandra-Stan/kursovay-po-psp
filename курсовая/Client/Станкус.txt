@@ -1,1 +1,0 @@
-Discount{id=3, name='Александра', surname='Станкус', dnumber='3%', shopName='Виталюр'}
